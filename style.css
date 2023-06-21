@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background: #1ea7b1;
+}
+
+main > div.card{
+    background: url(images/bg-pattern-card.svg);
+    height: 170px;
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+
+
+}
+
+div.info{
+    background: white;
+    height: 250px;
+    width: 400px;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+div.foto{
+    background: url(images/image-victor.jpg);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+    bottom: 200px;
+    left: 625px;
+    border: solid 5px white;
+}
+
